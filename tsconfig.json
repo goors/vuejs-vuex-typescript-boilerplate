@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+        "~": ["./"],
+        "~/components/*": ["./components/*"]
+      },
+    "--allowJs":true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/*.ts"
+  ],
+  "compileOnSave": true
+}
